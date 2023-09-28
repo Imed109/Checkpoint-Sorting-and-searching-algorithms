@@ -1,0 +1,16 @@
+ALGORITHM algorithm_name
+VAR
+    i , j , x , n = integer
+    T : ARRAY_OF integer[n]
+BEGIN
+    for i from 1 to n do
+        a:=T[i]
+        j:= i
+    while (j>1)and (T[j-1]>x)do
+        T[j]:= T[j-1]
+        j:=j-1;
+        end while 
+        T[j]:=x 
+    END_FOR 
+    
+END
